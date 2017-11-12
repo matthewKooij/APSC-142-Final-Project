@@ -1,0 +1,62 @@
+
+
+/* This is a sample Program
+   Use File->Load C Prog to
+   load a different Program
+*/
+
+task main()
+{
+	
+	setSoundVolume(50);
+	playTone(  622.25,    45); 
+	wait1Msec(  450); 
+	playTone(  466.16,    45); 
+	wait1Msec(  450);
+	playTone(  415.30,    45); 
+	wait1Msec(  450);   
+	playTone(  622.25,    24); 
+	wait1Msec(  240);  
+	playTone(  466.16,    28); 
+	
+	
+	wait1Msec(  150);
+
+	// windows xp
+	setSoundVolume(V);
+	playTone(622.25,45); 
+	wait1Msec(450); 
+	playTone(466.16,45); 
+	wait1Msec(450);
+	playTone(415.30,45); 
+	wait1Msec(450);   
+	playTone(622.25,24); 
+	wait1Msec(240);  
+	playTone(466.16,28);
+	
+	wait1Msec(1500); 
+	
+	// sad wah
+	playTone(  880,    50); 
+	wait1Msec(  800); 
+	playTone(  784,    50); 
+	wait1Msec(  800); 
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	playTone(  436,    28); 
+	wait1Msec(  50);
+	
+	
+}
